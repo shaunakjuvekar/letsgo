@@ -11,8 +11,8 @@ For our frontend, we are using Vite + React as our base stack.
 
 To run the frontend, run the following command inside the frontend folder in the terminal :-
 
-npm install
+### npm install
 
 To run the application, simply type in the terminal :-
 
-npm run dev
+### npm run dev
