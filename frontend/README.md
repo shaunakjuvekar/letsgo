@@ -13,6 +13,6 @@ To run the frontend, run the following command inside the frontend folder in the
 
 npm install
 
-TO run the application, simply type in the terminal :-
+To run the application, simply type in the terminal :-
 
 npm run dev
