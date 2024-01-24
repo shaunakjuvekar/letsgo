@@ -5,3 +5,5 @@ People enjoy traveling as a group because it reduces costs and keeps them safe. 
 
 Project Description
 LetsGo - a social network-like web app for VT students to coordinate group travel arrangements. The platform will allow students to create profiles and specify their desired destinations. Other students can then search for people with common interests and communicate via messaging to organize shared trips.
+
+To setup the project and get it up and running, refer to the ReadMe's in the frontend and backend folders respectivey.
