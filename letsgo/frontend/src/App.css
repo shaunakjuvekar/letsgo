@@ -1,0 +1,56 @@
+.chat-container {
+  margin-top: 20px;
+}
+
+.chat__messages {
+  max-height: 80vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  min-width: max-content;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.message__bubble {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.message__header {
+  font-size: 0.8em;
+  display: flex;
+  flex-direction: row;
+}
+
+.message__sender {
+  font-weight: bold;
+}
+
+.message__timestamp {
+  padding-left: 1rem;
+  text-align: right;
+}
+
+.message__body {
+  margin-top: 5px;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.recent-chat-item {
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+
+  &:hover {
+    background-color: #f5f5f5;
+  }
+}
+
+.recent-chat-timestamp {
+  font-size: 0.8em;
+  text-align: right;
+}

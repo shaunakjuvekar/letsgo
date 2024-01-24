@@ -1,0 +1,110 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.2em;
+  /* min-height: 100vh;
+  min-width: 100vw; */
+}
+
+.main-logo {
+  font-size: 1.5rem;
+}
+
+.home-container {
+  text-align: center;
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #e5e5e5;
+}
+
+/* CSS for the content container (your 'Container' component) */
+.container {
+  flex-grow: 1; /* Allow the content to grow and push the Footer down */
+  padding-top: 10px; /* Add top padding if needed */
+}
+
+.carousel-control-prev-icon {
+  background-color: black;
+}
+
+.carousel-control-next-icon {
+  background-color: black;
+}
+
+.footer {
+  /* position: fixed;
+  bottom: 0; */
+  background-color: #e5751f;
+  color: #fff;
+  padding: 10px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  align-items: center;
+}
+
+.footer p {
+  margin: 0; /* Remove default margin for paragraphs */
+}
+
+.left,
+.middle,
+.right {
+  flex: 1; /* Each section takes up equal horizontal space */
+  text-align: center; /* Center-align text within each section */
+}
+
+.middle a {
+  margin: 0 20px; /* Add space between "Contact" and "About" links */
+  text-decoration: none; /* Remove underline from links */
+  color: #fff; /* Text color for links */
+}
+
+.right a {
+  font-size: 20px; /* Increase the size of social media icons */
+  margin: 0 10px; /* Add space between social media icons */
+  color: #fff; /* Icon color */
+  text-decoration: none; /* Remove underline from links */
+}
+
+/* Styling on hover for links */
+.middle a:hover,
+.right a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}
+
+.profile-container {
+  margin-bottom: 4rem;
+}
+
+/* .profile-name-header{
+  display: flex;
+  justify-content: end;
+} */
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Adjust as needed */
+  padding: 20px;
+}
+
+.flex-item {
+  background-color: #f3f3f3;
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  width: 200px; /* Adjust as needed */
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+i.fa.fa-search {
+  color: black;
+}
